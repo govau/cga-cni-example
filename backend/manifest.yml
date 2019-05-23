@@ -1,0 +1,9 @@
+---
+applications:
+- name: backend-cni-test
+  buildpacks: [go_buildpack]
+  env:
+    GOPACKAGENAME: main
+  routes:
+  - route: backend-cni-test.apps.internal
+

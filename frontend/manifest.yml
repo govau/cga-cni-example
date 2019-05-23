@@ -1,0 +1,6 @@
+---
+applications:
+- name: frontend-cni-test
+  buildpacks: [go_buildpack]
+  env:
+    GOPACKAGENAME: main
